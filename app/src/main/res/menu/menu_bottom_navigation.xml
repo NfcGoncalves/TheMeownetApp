@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bothFragment"
+        android:title="@string/bottom_navigation_both"
+        android:icon="@drawable/ic_both" />
+
+    <item android:id="@+id/imagesFragment"
+        android:title="@string/bottom_navigation_images"
+        android:icon="@drawable/ic_image" />
+
+    <item android:id="@+id/gifsFragment"
+        android:title="@string/bottom_navigation_gifs"
+        android:icon="@drawable/ic_gif" />
+
+</menu>

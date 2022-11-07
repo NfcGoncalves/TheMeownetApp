@@ -4,4 +4,9 @@
 
     <!-- Item Card -->
     <string name="item_card_cat_description">This is an image of a cat</string>
+
+    <!-- Bottom Navigation Bar -->
+    <string name="bottom_navigation_both">Both</string>
+    <string name="bottom_navigation_images">Images</string>
+    <string name="bottom_navigation_gifs">Gifs</string>
 </resources>

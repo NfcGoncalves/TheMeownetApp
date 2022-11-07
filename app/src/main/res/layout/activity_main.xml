@@ -13,4 +13,18 @@
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/item_card_cat" />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/fragment_gallery_bottom_navigation"
+        android:layout_width="@dimen/bottom_navigation_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/bottom_navigation_margin"
+        android:background="@drawable/item_bar_round_corners"
+        android:elevation="@dimen/bottom_navigation_elevation"
+        app:itemIconTint="@color/black"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_bottom_navigation" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

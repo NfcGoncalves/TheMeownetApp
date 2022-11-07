@@ -1,4 +1,4 @@
-package com.example.themeownetapp.presentation
+package com.example.themeownetapp.presentation.viewmodels
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

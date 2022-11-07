@@ -1,9 +1,10 @@
-package com.example.themeownetapp.presentation
+package com.example.themeownetapp.presentation.activities
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.themeownetapp.databinding.ActivityMainBinding
+import com.example.themeownetapp.presentation.viewmodels.CatGalleryViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -1,3 +1,7 @@
 <resources>
+    <!-- General -->
     <string name="app_name">TheMeownetApp</string>
+
+    <!-- Item Card -->
+    <string name="item_card_cat_description">This is an image of a cat</string>
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Item Card -->
+    <dimen name="item_card_cat_height">250dp</dimen>
+    <dimen name="item_card_cat_margin">5dp</dimen>
+    <dimen name="item_card_cat_elevation">10dp</dimen>
+</resources>

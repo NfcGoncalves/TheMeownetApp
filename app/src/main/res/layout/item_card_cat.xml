@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_card_cat_height"
+    android:layout_margin="@dimen/item_card_cat_margin"
+    android:elevation="@dimen/item_card_cat_elevation">
+
+    <ImageView
+        android:id="@+id/imageViewCat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/item_card_cat_description" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

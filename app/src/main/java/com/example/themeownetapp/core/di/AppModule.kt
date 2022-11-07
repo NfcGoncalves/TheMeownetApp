@@ -1,4 +1,4 @@
-package com.example.themeownetapp.core
+package com.example.themeownetapp.core.di
 
 import com.example.themeownetapp.BuildConfig
 import com.example.themeownetapp.data.request.CatRequestApi

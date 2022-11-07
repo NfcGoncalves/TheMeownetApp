@@ -9,6 +9,7 @@ interface CatRequestApi {
     //Let's create the query with the parameters we need
     @GET("images/search/")
     suspend fun getAllCatImages(
-        @Query("mime_types") mimeTypes: String
+        @Query("mime_types") mimeTypes: String,
+        @Query("page") page: Int
     ): List<CatImage>
 }

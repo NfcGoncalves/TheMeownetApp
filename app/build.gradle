@@ -17,6 +17,12 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        /*
+        Not the best to put the access key here, it would be better to be put in local.properties
+        But for you to be able to test the app, I'll keep it here
+        */
+        buildConfigField("String", "API_URL", "\"https://api.thecatapi.com/v1/\"")
+        buildConfigField("String", "API_KEY", "\"live_FwWwPtS3PMZ7PdNzc9b9aN2v6TjCJAk0K1opvipQi2M2MU6coAQ3jZvWhhYxdJLt \"")
     }
 
     buildTypes {

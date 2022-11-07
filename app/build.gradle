@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -80,4 +81,8 @@ dependencies {
     // Paging 3
     def paging_version = "3.2.0-alpha03"
     implementation "androidx.paging:paging-runtime:$paging_version"
+
+    // Lifecycle Related
+    def lifecycle_version = "2.5.3"
+    implementation "androidx.navigation:navigation-ui-ktx:$lifecycle_version"
 }

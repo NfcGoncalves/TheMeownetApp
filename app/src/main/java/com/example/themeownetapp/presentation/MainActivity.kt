@@ -1,7 +1,8 @@
-package com.example.themeownetapp
+package com.example.themeownetapp.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.themeownetapp.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

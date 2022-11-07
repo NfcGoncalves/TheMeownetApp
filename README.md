@@ -5,6 +5,7 @@ In this app, you can watch the latest Gifs and images from the "TheCatApi"
 
 https://user-images.githubusercontent.com/8245160/200322259-96dc5c13-a8d9-490c-883f-e5ce327621d9.mp4
 
+## Technologies used
 - [x] ViewBinding
 - [x] RecyclerView
 - [x] MVVM Design Pattern

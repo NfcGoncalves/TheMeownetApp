@@ -25,6 +25,10 @@ android {
         buildConfigField("String", "API_KEY", "\"live_FwWwPtS3PMZ7PdNzc9b9aN2v6TjCJAk0K1opvipQi2M2MU6coAQ3jZvWhhYxdJLt \"")
     }
 
+    buildFeatures {
+        viewBinding true
+    }
+
     buildTypes {
         release {
             minifyEnabled false
